@@ -1,0 +1,51 @@
+﻿<Window x:Class="AutoTracker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoTracker"
+        mc:Ignorable="d"
+        Title="{Binding title}" Height="485" Width="290">
+    <Grid Background="Black">
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,5,0,0" VerticalAlignment="Top" Width="50" Source="images/charge.png" IsEnabled="{Binding charge}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="60,5,0,0" VerticalAlignment="Top" Width="50" Source="images/ice.png" IsEnabled="{Binding ice}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="115,5,0,0" VerticalAlignment="Top" Width="50" Source="images/wave.png" IsEnabled="{Binding wave}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="170,5,0,0" VerticalAlignment="Top" Width="50" Source="images/spazer.png" IsEnabled="{Binding spazer}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="60,170,0,0" VerticalAlignment="Top" Width="50" Source="images/plasma.png" IsEnabled="{Binding plasma}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,60,0,0" VerticalAlignment="Top" Width="50" Source="images/morph.png" IsEnabled="{Binding morph}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="60,60,0,0" VerticalAlignment="Top" Width="50" Source="images/varia.png" IsEnabled="{Binding varia}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="115,60,0,0" VerticalAlignment="Top" Width="50" Source="images/spring.png" IsEnabled="{Binding spring}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="170,60,0,0" VerticalAlignment="Top" Width="50" Source="images/hjb.png" IsEnabled="{Binding hjb}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="115,170,0,0" VerticalAlignment="Top" Width="50" Source="images/space.png" IsEnabled="{Binding space}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,115,0,0" VerticalAlignment="Top" Width="50" Source="images/bomb.png" IsEnabled="{Binding bomb}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="60,115,0,0" VerticalAlignment="Top" Width="50" Source="images/grav.png" IsEnabled="{Binding grav}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,170,0,0" VerticalAlignment="Top" Width="50" Source="images/ridley.png" IsEnabled="{Binding ridley}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="170,115,0,0" VerticalAlignment="Top" Width="50" Source="images/speed.png" IsEnabled="{Binding speed}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="115,115,0,0" VerticalAlignment="Top" Width="50" Source="images/screw.png" IsEnabled="{Binding screw}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <!--<Image HorizontalAlignment="Left" Height="50" Margin="5,170,0,0" VerticalAlignment="Top" Width="50" Source="images/croc.png" IsEnabled="{Binding croc}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>-->
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,5,0,0" VerticalAlignment="Top" Width="50" Source="images/kraid.png" IsEnabled="{Binding kraid}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,60,0,0" VerticalAlignment="Top" Width="50" Source="images/phantoon.png" IsEnabled="{Binding phantoon}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,115,0,0" VerticalAlignment="Top" Width="50" Source="images/draygon.png" IsEnabled="{Binding draygon}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,225,0,0" VerticalAlignment="Top" Width="50" Source="images/hookshot.png" IsEnabled="{Binding hookshot}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <!--<Image HorizontalAlignment="Left" Height="50" Margin="170,170,0,0" VerticalAlignment="Top" Width="50" Source="images/shak.gif" IsEnabled="{Binding shak}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>-->
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,225,0,0" VerticalAlignment="Top" Width="50" Source="images/hookshot.png" IsEnabled="{Binding hookshot}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,225,0,0" VerticalAlignment="Top" Width="50" Source="images/bombos.png" IsEnabled="{Binding bombos}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="60,225,0,0" VerticalAlignment="Top" Width="50" Source="images/book.png" IsEnabled="{Binding book}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="115,225,0,0" VerticalAlignment="Top" Width="50" Source="images/boots.png" IsEnabled="{Binding boots}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="170,225,0,0" VerticalAlignment="Top" Width="50" Source="images/bottle0.png" IsEnabled="{Binding bottle}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="225,280,0,0" VerticalAlignment="Top" Width="50" Source="images/cape.png" IsEnabled="{Binding cape}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,280,0,0" VerticalAlignment="Top" Width="50" Source="images/ether.png" IsEnabled="{Binding ether}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="60,280,0,0" VerticalAlignment="Top" Width="50" Source="images/firerod.png" IsEnabled="{Binding firerod}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="115,280,0,0" VerticalAlignment="Top" Width="50" Source="images/flippers.png" IsEnabled="{Binding flippers}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="170,280,0,0" VerticalAlignment="Top" Width="50" Source="images/somaria.png" IsEnabled="{Binding somaria}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="192,335,0,0" VerticalAlignment="Top" Width="50" Source="images/hammer.png" IsEnabled="{Binding hammer}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="38,335,0,0" VerticalAlignment="Top" Width="50" Source="images/icerod.png" IsEnabled="{Binding icerod}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="93,335,0,0" VerticalAlignment="Top" Width="50" Source="images/lantern.png" IsEnabled="{Binding lantern}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="143,335,0,0" VerticalAlignment="Top" Width="50" Source="images/mirror.png" IsEnabled="{Binding mirror}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="170,170,0,0" VerticalAlignment="Top" Width="50" Source="images/moonpearl.png" IsEnabled="{Binding moonpearl}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,170,0,0" VerticalAlignment="Top" Width="50" Source="images/quake.png" IsEnabled="{Binding quake}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="5,390,0,0" VerticalAlignment="Top" Width="50" Source="images/shovel.png" IsEnabled="{Binding shovel}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="59,391,0,0" VerticalAlignment="Top" Width="50" Source="images/flute.png" IsEnabled="{Binding flute}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>
+        <!--<Image HorizontalAlignment="Left" Height="50" Margin="5,335,0,0" VerticalAlignment="Top" Width="50" Source="{Binding mitts ? glove1.png : glove2.png}" IsEnabled="{Binding gloves}" Style="{StaticResource ImageEnabled}" Stretch="Fill"/>-->
+    </Grid>
+</Window>
